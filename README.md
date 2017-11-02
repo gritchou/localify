@@ -29,7 +29,7 @@ The following RegExp:
 
 Will match:
 ```shell
-mydomain.fr/\#/awesomeroute // matches \#
+mydomain.fr/#/awesomeroute // matches #
 mydomain.fr/?locale=FR#/awesomeroute // matches ?locale=FR#
 mydomain.fr/?locale=en#/awesomeroute // matches ?locale=en#
 mydomain.fr/?locale=en?locale=DE?locale=EN#/awesomeroute // matches ?locale=en?locale=DE?locale=EN#
