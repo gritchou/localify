@@ -1,0 +1,22 @@
+{
+	  "manifest_version": 2,
+	  "name": "Change Locale",
+	  "version": "1.0",
+	
+	  "description": "Adds a planet action icon to the toolbar. Click the button to select a locale to add to the URL.",
+	  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+	  "icons": {
+			"48": "icons/planet.png"
+	  },
+	
+	  "permissions": [
+			"tabs",
+			"activeTab"
+		],
+
+		"browser_action": {
+			"default_icon": "icons/planet.png",
+			"default_title": "Localify",
+			"default_popup": "popup/change-locale.html"
+	  }
+}
