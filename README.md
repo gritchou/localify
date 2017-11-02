@@ -29,10 +29,10 @@ The following RegExp:
 
 Will match:
 ```shell
-mydomain.fr/<span style="color:blue">#</span>/awesomeroute
-mydomain.fr/<span style="color:blue">?locale=FR#</span>/awesomeroute
-mydomain.fr/<span style="color:blue">?locale=en#</span>/awesomeroute
-mydomain.fr/<span style="color:blue">?locale=en?locale=DE?locale=EN#</span>/awesomeroute
+mydomain.fr/#/awesomeroute // matches #
+mydomain.fr/?locale=FR#/awesomeroute // matches ?locale=FR#
+mydomain.fr/?locale=en#/awesomeroute // matches ?locale=en#
+mydomain.fr/?locale=en?locale=DE?locale=EN#/awesomeroute // matches ?locale=en?locale=DE?locale=EN#
 ```
 
 When the user selects a locale in the popup, the matching part will be replaced by `?locale={selectedLocale}` or by `#` if he selected clear.
@@ -47,9 +47,9 @@ Consider using a polyfill like [Mozilla Polyfill](https://github.com/mozilla/web
 
 ## WebExtensions Links
 
-- :book: Browser support for JavaScript APIs: https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs
-- :book: Chrome incompatibilities: https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Chrome_incompatibilities
-- :book: MDN Browser Compat Data: https://github.com/mdn/browser-compat-data
-- :book: Web Navigation Events: https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/webNavigation
-- :book: Google Developers Videos on Youtube (part 1) https://www.youtube.com/watch?v=rNkfs8-uRTE&list=PLCA101D6A85FE9D4B
-- :book: Google Developers Videos on Youtube (part 2) https://www.youtube.com/watch?v=wRDPTnY3yO8&list=PL38DF05697DE372B1
+- Browser support for JavaScript APIs: https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs
+- Chrome incompatibilities: https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Chrome_incompatibilities
+- MDN Browser Compat Data: https://github.com/mdn/browser-compat-data
+- Web Navigation Events: https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/webNavigation
+- Google Developers Videos on Youtube (part 1) https://www.youtube.com/watch?v=rNkfs8-uRTE&list=PLCA101D6A85FE9D4B
+- Google Developers Videos on Youtube (part 2) https://www.youtube.com/watch?v=wRDPTnY3yO8&list=PL38DF05697DE372B1
