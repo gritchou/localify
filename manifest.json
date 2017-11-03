@@ -4,7 +4,7 @@
 	  "version": "1.0",
 	
 	  "description": "Adds a planet action icon to the toolbar. Click the button to select a locale to add to the URL.",
-	  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+	  "homepage_url": "https://github.com/gritchou/localify",
 	  "icons": {
 			"48": "icons/planet.png"
 	  },
