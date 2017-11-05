@@ -47,6 +47,8 @@ Consider using a polyfill like [Mozilla Polyfill](https://github.com/mozilla/web
 
 ## WebExtensions Links
 
+- [Firefox WebExtension API](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API)
+- [Chrome WebExtension API](https://developer.chrome.com/apps/api_index)
 - [Browser support for JavaScript APIs](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs)
 - [Chrome incompatibilities](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Chrome_incompatibilities)
 - [MDN Browser Compat Data](https://github.com/mdn/browser-compat-data)
