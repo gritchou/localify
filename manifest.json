@@ -18,5 +18,13 @@
 			"default_icon": "icons/planet.png",
 			"default_title": "Localify",
 			"default_popup": "popup/change-locale.html"
+	  },
+
+	  "commands": {
+		"_execute_browser_action": {
+		  "suggested_key": {
+			"default": "Ctrl+Shift+Y"
+		  }
+		}
 	  }
 }
